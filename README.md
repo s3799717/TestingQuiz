@@ -1,5 +1,8 @@
 # TestingQuiz
 
+## This quiz is for me to know your level.
+## So just do your best, no need to force yourself to get high marks.
+
 ### 13 questions in total
 
 ### Due: 23:59 7/11/2021 (this Sunday)<br><br>
