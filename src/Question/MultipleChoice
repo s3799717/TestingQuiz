@@ -1,0 +1,62 @@
+
+This page is for multiple choice questions.
+
+Try not to use search engines.
+
+1. Which one is not belong to the basic 8 data types of Java?
+
+    A. int      B. String       C. boolean      D. float
+
+
+
+2. Which one would you use to traverse the values in the array?
+
+    A. for      B. If       C. Switch       D. Traverser
+
+
+
+3. Which one would you use to jump out of a loop but not the method?
+
+    A. break        B. continue     C. return       D. end
+
+
+
+4. Which one is the correct outcome for the following code?
+
+    static String[][] A = {{"A", "a"}, {"B", "b"}, {"C", "c"}, {"D", "d"}};
+    static boolean X = false;
+
+    public static void main(String[] args) {
+
+        switch (1) {
+            case 1:
+                System.out.println(test(3));
+                break;
+            case 2:
+                System.out.println(test(2));
+                break;
+            case 3:
+                System.out.println(test(1));
+                break;
+            case 4:
+                System.out.println(test(0));
+                break;
+        }
+
+    }
+
+    public static String test(int m) {
+
+        if (!X){
+            for (int i = 0;i< A.length;i++) {
+                for (int j=0;j<A[0].length;j++){
+                    return A[m][1];
+                }
+            }
+        }
+        return "12";
+    }
+
+    A. 12       B. B        C. b        D. d        E. C        F. a
+
+

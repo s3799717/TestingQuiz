@@ -1,0 +1,22 @@
+
+
+This is the extra question, it's about mysql database.
+
+I created a Mysql database on AWS and turn on the public access.
+
+Endpoint: testdb1.cdkhpsg3t9hs.us-east-2.rds.amazonaws.com
+
+port: 3306
+
+Username: root
+
+Password: Aa12345!
+
+Connect to the database.
+(If shows "unknown error", try to use VPN)
+
+Create a table
+name: your student id
+variable: id int, name varchar, dateOfBirth date.
+
+And insert one line, could be your info or random info.
