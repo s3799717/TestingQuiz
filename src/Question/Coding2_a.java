@@ -1,5 +1,7 @@
 package Question;
 
+
+
 public class Coding2_a {
 
 /*    Please complete the following requirements
@@ -19,6 +21,11 @@ public class Coding2_a {
       output the int array
     */
 
-    public static void main(String[] args) {}
 
-}
+    public static void main(String[] args){
+      int n = 10;
+      int[]intArr = new int [n];
+      Coding2_b.fill(intArr);
+      Coding2_b.replace(intArr,0);
+    }
+  }

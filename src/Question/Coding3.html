@@ -8,31 +8,46 @@
 
 
 <h1>
-    please change the color of this sentence to red.
+    <font color="red">
+        please change the color of this sentence to red.
+    </font>
 </h1>
 
 
-<h1>
+<h1 align="right">
     please make this sentence appear at the right side of the page.
 </h1>
 
 
-<button>
+<button disabled="disabled">
     please make this bottom can not be clicked.
 </button>
 
 
-<input type="text" value="Please make this text can not be changed and long enough to display the whole sentence.">
+<input type="text" size="100" disabled="disabled" value="Please make this text can not be changed and long enough to display the whole sentence.">
 
 
-<p>Please make this paragraph disappear without deleting it.</p>
+<p hidden = “hidden”>Please make this paragraph disappear without deleting it.</p>
 
 
 <p>Please create a drop-down menu with following data: male, female, both, neither. and make the default value be female.</p>
 
+<div class='form-group'>
+    <select id='dropmenue' name='dropmenue' value='female'>
+        <option>female</option>
+        <option>male</option>
+        <option>both</option>
+        <option>neither</option>
+    </select>
+</div>
+
 
 <p>Please create three radio buttons that can only select one at a time. </p>
 
-
+<form action="" method="get"> 
+    <label><input name="radiobt" type="radio" value="" />radiobt1 </label> 
+    <label><input name="radiobt" type="radio" value="" />radiobt2 </label> 
+    <label><input name="radiobt" type="radio" value="" />radiobt3</label> 
+</form> 
 </body>
 </html>

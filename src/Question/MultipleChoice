@@ -3,25 +3,25 @@ This page is for multiple choice questions.
 
 Try not to use search engines.
 
-1. Which one is not belong to the basic 8 data types of Java?
+1. Which one is not belong to the basic 8 data types of Java? B
 
     A. int      B. String       C. boolean      D. float
 
 
 
-2. Which one would you use to traverse the values in the array?
+2. Which one would you use to traverse the values in the array? A
 
     A. for      B. If       C. Switch       D. Traverser
 
 
 
-3. Which one would you use to jump out of a loop but not the method?
+3. Which one would you use to jump out of a loop but not the method? A
 
     A. break        B. continue     C. return       D. end
 
 
 
-4. Which one is the correct outcome for the following code?
+4. Which one is the correct outcome for the following code? D
 
     static String[][] A = {{"A", "a"}, {"B", "b"}, {"C", "c"}, {"D", "d"}};
     static boolean X = false;

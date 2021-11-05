@@ -1,5 +1,7 @@
 package Question;
 
+import java.util.Scanner;
+
 public class Coding1 {
 
 /*  Please complete the following requirements.
@@ -24,8 +26,22 @@ public class Coding1 {
     */
 
 
-    public static void main(String[] args) {}
+    public static void main(String[] args) 
+    {
+        Scanner input = new Scanner(System.in);
+        int a = input.nextInt();
+        int b = input.nextInt();
+        input.close();
+        
+        coding1(a,b);
 
-    public static void coding1(int a, int b){}
+    }
+
+    public static void coding1(int a, int b)
+    {
+        System.out.println(a+b);
+        System.out.println(a-b);
+        System.out.println(a*b);
+    }
 
 }

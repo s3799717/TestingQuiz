@@ -5,31 +5,58 @@
     <title>Coding4</title>
 </head>
 <body>
-<h3>
+<h3 hidden="hidden">
     Create a form that required users input username and password.
 </h3>
-<h3>
+<h3 hidden="hidden">
     Have two buttons, reset and submit.
 </h3>
-<h3>
+<h3 hidden="hidden">
     Click the submit button, should be able to submit the input.
 </h3>
-<h3>
+<h3 hidden="hidden">
     If the username or password is empty, should be unable to submit
 </h3>
-<h3>
+<form method="post">
+    <div class="form-group">
+        <label for="username_textbox">Username</label>
+        <input class="form-control" id="username_textbox" name="username_textbox" placeholder="username">
+    </div>
+    <div class="form-group">
+        <label for="password_textbox">Password</label>
+        <input class="form-control" id="password_textbox" name="password_textbox" placeholder="password">
+    </div>
+    <button type="reset" class="btn btn-primary">reset</button>
+    <button type="button" class="btn btn-primary" onclick = "btn()">submit</button>
+    <script>
+        function btn() {
+            var username = document.getElementById("username_textbox").value;
+            var password = document.getElementById("password_textbox").value;
+            if(username=="1" && password=="2"){
+                //alert("correct")
+                window.location.href= "mainpage.html";
+            }else{
+                alert("Incorrect");
+            }
+                
+            
+            
+        }
+    </script>
+</form>    
+<h3 hidden="hidden">
     Create a new html page called mainpage, and leave it blank.
 </h3>
-<h3>
+<h3 hidden="hidden">
     Click submit button,
 </h3>
-<h3>
+<h3 hidden="hidden">
     If the username is 1 and password is 2, then jump to mainpage.
 </h3>
-<h3>
+<h3 hidden="hidden">
     Otherwise alert "Incorrect."
 </h3>
-<h3>
+<h3 hidden="hidden">
     Click the reset button, clear two input's text.
 </h3>
 </body>
